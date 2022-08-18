@@ -1,0 +1,5 @@
+
+MAILTO=""
+BASH_ENV="/root/.bashrc"
+SHELL=/bin/bash
+*/10 * * * * /usr/local/bin/python3 /code/channel_service/orders/orders_updater.py >> /code/logs/orders_cron.log 2>&1
